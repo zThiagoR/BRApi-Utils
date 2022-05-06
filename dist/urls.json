@@ -1,0 +1,8 @@
+{
+    "urls": {
+        "BANKS": "https://brasilapi.com.br/api/banks/v1/",
+        "CEP": "https://brasilapi.com.br/api/cep/v2/",
+        "DDD": "https://brasilapi.com.br/api/ddd/v1/",
+        "CNPJ": "https://brasilapi.com.br/api/cnpj/v1/"
+    }
+}
