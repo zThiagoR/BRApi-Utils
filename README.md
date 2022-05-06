@@ -16,22 +16,22 @@ npm i brapi-utils or yarn add brapi-utils
 
 ##Exemplos de uso
 ```js
-const BRapiUtils = new BRApiUtils()
+import { BRApiUtils } from 'brapi-utils'
 
-/* Tipos disponiveis: 'CEP' | 'BANKS' | 'DDD' | 'CNPJ';
+const brApiUtils = new BRApiUtils()
 
-const test = async () => {
+/* Tipos disponiveis: 'CEP' | 'BANKS' | 'DDD' | 'CNPJ'; */
+
+async function fetchCEP() {
   try {
-    const response = await BRapiUtils.fetch({
-      type: 'CEP',
-      code: '01001000'
-    });
+    const response = await brApiUtils.fetch({ type: 'CEP', code: '01001000' })
     console.log(response)
   } catch (error) {
     console.log(error)
   }
 }
-test()
+
+fetchCEP()
 
 /* SAIDA: 
 {
@@ -51,7 +51,6 @@ test()
 }
 */
 ```
-
 
 ## License
 MIT
