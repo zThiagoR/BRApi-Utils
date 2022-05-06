@@ -14,7 +14,7 @@ Para instalar a dependência, basta ir no seu projeto e digitar:
 npm i brapi-utils or yarn add brapi-utils
 ```
 
-##Exemplos de uso
+## Exemplos de uso
 ```js
 import { BRApiUtils } from 'brapi-utils'
 
